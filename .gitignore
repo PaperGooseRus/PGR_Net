@@ -1,0 +1,66 @@
+# Python and editor state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.idea/
+.vs/
+
+# Native build outputs (retain checked-in sources and test fixtures)
+[Bb]uild/
+[Bb]uild-*/
+[Cc]make-build-*/
+CMakeFiles/
+CMakeCache.txt
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+*.o
+*.obj
+*.pdb
+*.ilk
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.exp
+*.exe
+
+# Generated execution results, reports and training experiments
+NN/nn_results_*/
+NN/experiment_*/
+NN/diagnostics/evaluation_*/
+NN/diagnostics/final_results_*/
+BD/reports/collection/sample_*/
+BD/observations/*/sample_*/
+BD_next/
+PGR_Challenge_Set/challenge_results_*/
+PGR_Neural_Baseline_Final/evaluation_*/
+PGR_Neural_Baseline_Final/final_results_*/
+results_*/
+*.log
+*.tmp
+*.temp
+
+# Generated model files only (never ignore versioned NN/tests/fixtures)
+*.pgrnn
+!NN/tests/fixtures/*.pgrnn
+
+# Generated archives; do not exclude source data stored in JSON/JSONL/CSV
+*.zip
+*.tar.gz

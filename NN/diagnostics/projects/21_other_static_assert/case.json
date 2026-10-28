@@ -1,0 +1,12 @@
+{
+  "id": "challenge_021",
+  "label": "out_of_scope",
+  "stage": "compile",
+  "arguments": [
+    "-c",
+    "main.cpp"
+  ],
+  "expected_marker": "error:",
+  "group_id": "challenge_family_out_of_scope",
+  "notes": ""
+}

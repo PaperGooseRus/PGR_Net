@@ -1,0 +1,12 @@
+{
+  "id": "extended_030",
+  "label": "syntax_error",
+  "stage": "compile",
+  "arguments": [
+    "-c",
+    "main.cpp"
+  ],
+  "expected_marker": "error:",
+  "group_id": "regression_family_syntax_error",
+  "notes": "Искусственный пример для разработки, не независимый проект."
+}

@@ -1,0 +1,36 @@
+{
+  "source": "User-provided Windows verification archive",
+  "summary": {
+    "classifier_version": "2.0.0-baseline",
+    "total": 54,
+    "evaluated_errors": 48,
+    "successful_controls": 6,
+    "collection_problems": 0,
+    "v1_matches": 38,
+    "v2_matches": 48,
+    "v2_known_rejected": 0,
+    "v2_unknown_false_accepts": 0,
+    "regressions": [],
+    "improvements": [
+      "challenge_002",
+      "challenge_003",
+      "extended_027",
+      "extended_028",
+      "extended_029",
+      "extended_030",
+      "extended_034",
+      "extended_041",
+      "extended_049",
+      "extended_050"
+    ],
+    "limitations": "Разработческие регрессионные данные; не независимая оценка точности и не датасет для обучения."
+  },
+  "environment": {
+    "compiler_version": "g++.EXE (Rev4, Built by MSYS2 project) 16.2.0",
+    "target_triplet": "x86_64-w64-mingw32",
+    "host_os": "Windows",
+    "python": "3.10.8 (tags/v3.10.8:aaaf517, Oct 11 2022, 16:50:30) [MSC v.1933 64 bit (AMD64)]",
+    "classifier_v1_sha256": "5619d4a179a2a568e41a3c7a4f96ee68b3594a3a850fa0d7062f04a810e43ebc",
+    "classifier_v2_sha256": "36efdc58004cc3ff5d2126cd9501d08cd1b400b2aa352ad71156958f3a9924cd"
+  }
+}

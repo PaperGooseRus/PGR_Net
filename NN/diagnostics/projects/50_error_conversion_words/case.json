@@ -1,0 +1,12 @@
+{
+  "id": "extended_050",
+  "label": "out_of_scope",
+  "stage": "compile",
+  "arguments": [
+    "-c",
+    "main.cpp"
+  ],
+  "expected_marker": "error:",
+  "group_id": "regression_family_out_of_scope",
+  "notes": "Искусственный пример для разработки, не независимый проект."
+}

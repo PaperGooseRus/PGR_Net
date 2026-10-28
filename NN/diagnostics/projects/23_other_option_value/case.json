@@ -1,0 +1,13 @@
+{
+  "id": "challenge_023",
+  "label": "out_of_scope",
+  "stage": "invocation",
+  "arguments": [
+    "-fmax-errors=banana",
+    "-c",
+    "main.cpp"
+  ],
+  "expected_marker": "error:",
+  "group_id": "challenge_family_out_of_scope",
+  "notes": "Параметр -fmax-errors распознан, но его числовое значение недопустимо."
+}

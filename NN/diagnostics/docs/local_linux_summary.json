@@ -1,0 +1,25 @@
+{
+  "classifier_version": "2.0.0-baseline",
+  "total": 54,
+  "evaluated_errors": 48,
+  "successful_controls": 6,
+  "collection_problems": 0,
+  "v1_matches": 38,
+  "v2_matches": 48,
+  "v2_known_rejected": 0,
+  "v2_unknown_false_accepts": 0,
+  "regressions": [],
+  "improvements": [
+    "challenge_002",
+    "challenge_003",
+    "extended_027",
+    "extended_028",
+    "extended_029",
+    "extended_030",
+    "extended_034",
+    "extended_041",
+    "extended_049",
+    "extended_050"
+  ],
+  "limitations": "Разработческие регрессионные данные; не независимая оценка точности и не датасет для обучения."
+}

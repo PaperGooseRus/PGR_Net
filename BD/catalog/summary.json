@@ -1,0 +1,25 @@
+{
+  "total": 7424,
+  "clean": 3712,
+  "faulty": 3712,
+  "fault_families": 116,
+  "pairs": 3712,
+  "copies_per_family": 32,
+  "splits": {
+    "train": 5568,
+    "val": 928,
+    "test": 928
+  },
+  "stages": {
+    "success": 3712,
+    "compile_error": 2496,
+    "link_error": 512,
+    "configure_error": 320,
+    "runtime_error": 384
+  },
+  "language": {
+    "c": 4224,
+    "cpp": 3200
+  },
+  "seed": 20261028
+}

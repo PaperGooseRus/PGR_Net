@@ -1,0 +1,14 @@
+{
+  "id": "challenge_010",
+  "label": "undefined_reference",
+  "stage": "link",
+  "arguments": [
+    "main.cpp",
+    "other.cpp",
+    "-o",
+    "program"
+  ],
+  "expected_marker": "undefined reference",
+  "group_id": "challenge_family_undefined_reference",
+  "notes": "Объявление C и определение C++ имеют разное связывание."
+}

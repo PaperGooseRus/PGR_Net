@@ -1,0 +1,13 @@
+{
+  "id": "extended_035",
+  "label": "undefined_reference",
+  "stage": "link",
+  "arguments": [
+    "main.cpp",
+    "-o",
+    "program"
+  ],
+  "expected_marker": "undefined reference",
+  "group_id": "regression_family_undefined_reference",
+  "notes": "Искусственный пример для разработки, не независимый проект."
+}

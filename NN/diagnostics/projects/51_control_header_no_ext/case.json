@@ -1,0 +1,13 @@
+{
+  "id": "extended_051",
+  "label": "build_success",
+  "stage": "link",
+  "arguments": [
+    "main.cpp",
+    "-o",
+    "program"
+  ],
+  "expected_marker": "",
+  "group_id": "regression_family_build_success",
+  "notes": "Искусственный пример для разработки, не независимый проект."
+}

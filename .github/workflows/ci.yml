@@ -1,0 +1,80 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    name: Tests (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Repository hygiene
+        run: python scripts/repo_check.py
+      - name: Python syntax
+        run: python scripts/repo_check.py --syntax
+      - name: NN Python regression tests
+        run: python NN/test_all.py
+      - name: BD stage 4 tests
+        run: python BD/bd.py test-stage4
+      - name: NN source integrity (SHA-256)
+        run: python NN/verify_package.py
+      - name: BD stage 4 snapshot integrity
+        run: python BD/bd.py verify-stage4
+      - name: BD corpus availability
+        run: python scripts/check_corpus.py
+      - name: Build C++ tests
+        run: cmake -S NN -B NN/build -G Ninja -DCMAKE_BUILD_TYPE=Release
+      - name: Compile C++ tests
+        run: cmake --build NN/build --parallel 2
+      - name: CTest
+        run: ctest --test-dir NN/build --output-on-failure
+      - name: Model CLI integration tests
+        run: python NN/tests/test_model_cli.py --bin-dir NN/build/demo
+
+  release:
+    name: Publish tagged source archive
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Validate tag / archive
+        shell: bash
+        run: |
+          python scripts/repo_check.py
+          git archive --format=zip --output="PGR_Net_${GITHUB_REF_NAME}.zip" HEAD
+      - name: Release on GitHub
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          gh release create "${GITHUB_REF_NAME}" "PGR_Net_${GITHUB_REF_NAME}.zip" \
+            --verify-tag --generate-notes --title "${GITHUB_REF_NAME}"

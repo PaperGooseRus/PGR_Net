@@ -1,0 +1,698 @@
+[
+  {
+    "code": "C_UNDECLARED",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_SEMICOLON",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_UNKNOWN_TYPE",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_BAD_HEADER",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_UNTERMINATED_STRING",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_INVALID_TOKEN",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_MACRO_ARITY",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_PREPROC_UNCLOSED",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_DUPLICATE_CASE",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_INVALID_BREAK",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_INVALID_CONTINUE",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_RETURN_IN_VOID",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_TOO_FEW_ARGUMENTS",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_TOO_MANY_ARGUMENTS",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_CONFLICTING_TYPES",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_MISSING_FIELD",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_DOT_ARROW_MISMATCH",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_NEGATIVE_ARRAY",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_STATIC_ASSERT",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_CONST_ASSIGN",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_REDEFINE_LOCAL",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_NON_LVALUE",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_BAD_INT_POINTER",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_INCOMPATIBLE_POINTERS",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_MISSING_PAREN",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_BAD_DESIGNATOR",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_INVALID_RETURN_VALUE",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_PRINTF_FORMAT",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_UNKNOWN_ANGLE_INCLUDE",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_WRONG_TYPEDEF",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_INVALID_FILE_REGISTER",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_INCOMPLETE_STRUCT",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_NONCONST_GLOBAL_INIT",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_EXCESS_SCALAR_INIT",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_GOTO_UNDEFINED",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_NONINT_CASE",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_FUNCTION_PTR_TYPE",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_REDEFINE_STRUCT",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_CPP_NULLPTR",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_EMPTY_CHAR",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_INVALID_ARRAY_INDEX_TYPE",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_UNKNOWN_PRAGMA_WARNING",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "C_TOO_MANY_STRUCT_FIELDS",
+    "language": "c",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_UNDECLARED",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_MISSING_VECTOR_INCLUDE",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_DELETED_CONSTRUCTOR",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_PRIVATE_MEMBER",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_ABSTRACT_INSTANCE",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_OVERRIDE_MISMATCH",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_FINAL_INHERITANCE",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_NO_CONSTRUCTOR",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_AMBIGUOUS_OVERLOAD",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_BAD_CONVERSION",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_NARROWING_LIST",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_UNKNOWN_MEMBER",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_DEPENDENT_TYPENAME",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_WRONG_TEMPLATE_ARITY",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_STATIC_ASSERT",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_NONCOPYABLE_COPY",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_MUTATE_CONST_METHOD",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_BAD_NAMESPACE",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_NO_MATCHING_OVERLOAD",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_CATCH_WITHOUT_TRY",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_MISSING_CLASS_SEMICOLON",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_BAD_BASE_CONSTRUCTOR",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_OPERATOR_UNDEFINED",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_REFERENCE_NO_INIT",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_RVALUE_TO_LREF",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_VOID_TO_INT",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_DUPLICATE_CASE",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_CONST_ASSIGN",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_MISSING_SEMICOLON",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_BAD_TEMPLATE_MEMBER",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_INVALID_DYNAMIC_CAST",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_INVALID_SPECIFIER",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_BAD_INITIALIZER_LIST",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_MISSING_TYPENAME_STD",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CPP_NO_MATCHING_FUNCTION",
+    "language": "cpp",
+    "stage": "compile_error",
+    "mode": "plain"
+  },
+  {
+    "code": "LINK_UNDEFINED_C",
+    "language": "c",
+    "stage": "link_error",
+    "mode": "undefined"
+  },
+  {
+    "code": "LINK_UNDEFINED_CPP",
+    "language": "cpp",
+    "stage": "link_error",
+    "mode": "undefined"
+  },
+  {
+    "code": "LINK_NO_MAIN_C",
+    "language": "c",
+    "stage": "link_error",
+    "mode": "no_main"
+  },
+  {
+    "code": "LINK_NO_MAIN_CPP",
+    "language": "cpp",
+    "stage": "link_error",
+    "mode": "no_main"
+  },
+  {
+    "code": "LINK_DUPLICATE_MAIN_C",
+    "language": "c",
+    "stage": "link_error",
+    "mode": "two_mains"
+  },
+  {
+    "code": "LINK_DUPLICATE_MAIN_CPP",
+    "language": "cpp",
+    "stage": "link_error",
+    "mode": "two_mains"
+  },
+  {
+    "code": "LINK_MULTIPLE_GLOBAL_C",
+    "language": "c",
+    "stage": "link_error",
+    "mode": "two_globals"
+  },
+  {
+    "code": "LINK_MULTIPLE_GLOBAL_CPP",
+    "language": "cpp",
+    "stage": "link_error",
+    "mode": "two_globals"
+  },
+  {
+    "code": "LINK_MISSING_TRANSLATION_UNIT_C",
+    "language": "c",
+    "stage": "link_error",
+    "mode": "missing_tu"
+  },
+  {
+    "code": "LINK_MISSING_TRANSLATION_UNIT_CPP",
+    "language": "cpp",
+    "stage": "link_error",
+    "mode": "missing_tu"
+  },
+  {
+    "code": "LINK_UNDEFINED_STATIC_CPP",
+    "language": "cpp",
+    "stage": "link_error",
+    "mode": "static_member"
+  },
+  {
+    "code": "LINK_UNDEFINED_VIRTUAL_CPP",
+    "language": "cpp",
+    "stage": "link_error",
+    "mode": "virtual"
+  },
+  {
+    "code": "LINK_C_ABI_CPP",
+    "language": "cpp",
+    "stage": "link_error",
+    "mode": "abi"
+  },
+  {
+    "code": "LINK_MISSING_LIBRARY_C",
+    "language": "c",
+    "stage": "link_error",
+    "mode": "library"
+  },
+  {
+    "code": "LINK_MISSING_LIBRARY_CPP",
+    "language": "cpp",
+    "stage": "link_error",
+    "mode": "library"
+  },
+  {
+    "code": "LINK_UNINSTANTIATED_TEMPLATE_CPP",
+    "language": "cpp",
+    "stage": "link_error",
+    "mode": "template"
+  },
+  {
+    "code": "RUN_NONZERO_C",
+    "language": "c",
+    "stage": "runtime_error",
+    "mode": "plain"
+  },
+  {
+    "code": "RUN_NONZERO_CPP",
+    "language": "cpp",
+    "stage": "runtime_error",
+    "mode": "plain"
+  },
+  {
+    "code": "RUN_ASSERT_C",
+    "language": "c",
+    "stage": "runtime_error",
+    "mode": "plain"
+  },
+  {
+    "code": "RUN_ASSERT_CPP",
+    "language": "cpp",
+    "stage": "runtime_error",
+    "mode": "plain"
+  },
+  {
+    "code": "RUN_UNCAUGHT_THROW_CPP",
+    "language": "cpp",
+    "stage": "runtime_error",
+    "mode": "plain"
+  },
+  {
+    "code": "RUN_INVALID_ARGUMENT_CPP",
+    "language": "cpp",
+    "stage": "runtime_error",
+    "mode": "plain"
+  },
+  {
+    "code": "RUN_MISSING_FILE_C",
+    "language": "c",
+    "stage": "runtime_error",
+    "mode": "plain"
+  },
+  {
+    "code": "RUN_WRONG_LOGIC_C",
+    "language": "c",
+    "stage": "runtime_error",
+    "mode": "plain"
+  },
+  {
+    "code": "RUN_WRONG_LOGIC_CPP",
+    "language": "cpp",
+    "stage": "runtime_error",
+    "mode": "plain"
+  },
+  {
+    "code": "RUN_MISSING_ENV_C",
+    "language": "c",
+    "stage": "runtime_error",
+    "mode": "plain"
+  },
+  {
+    "code": "RUN_INPUT_PARSE_C",
+    "language": "c",
+    "stage": "runtime_error",
+    "mode": "plain"
+  },
+  {
+    "code": "RUN_DIVISION_GUARD_C",
+    "language": "c",
+    "stage": "runtime_error",
+    "mode": "plain"
+  },
+  {
+    "code": "CMAKE_UNKNOWN_COMMAND",
+    "language": "c",
+    "stage": "configure_error",
+    "mode": "unknown_command"
+  },
+  {
+    "code": "CMAKE_MISSING_SOURCE",
+    "language": "c",
+    "stage": "configure_error",
+    "mode": "missing_source"
+  },
+  {
+    "code": "CMAKE_MISSING_PACKAGE",
+    "language": "c",
+    "stage": "configure_error",
+    "mode": "missing_package"
+  },
+  {
+    "code": "CMAKE_INCLUDE_ABSENT",
+    "language": "c",
+    "stage": "configure_error",
+    "mode": "missing_include"
+  },
+  {
+    "code": "CMAKE_SUBDIRECTORY_ABSENT",
+    "language": "c",
+    "stage": "configure_error",
+    "mode": "missing_subdir"
+  },
+  {
+    "code": "CMAKE_DUPLICATE_TARGET",
+    "language": "c",
+    "stage": "configure_error",
+    "mode": "duplicate_target"
+  },
+  {
+    "code": "CMAKE_UNKNOWN_TARGET_LINK",
+    "language": "c",
+    "stage": "configure_error",
+    "mode": "target_link"
+  },
+  {
+    "code": "CMAKE_UNSUPPORTED_VERSION",
+    "language": "c",
+    "stage": "configure_error",
+    "mode": "future_version"
+  },
+  {
+    "code": "CMAKE_INVALID_LANGUAGE",
+    "language": "c",
+    "stage": "configure_error",
+    "mode": "invalid_language"
+  },
+  {
+    "code": "CMAKE_BAD_ALIAS",
+    "language": "c",
+    "stage": "configure_error",
+    "mode": "bad_alias"
+  }
+]

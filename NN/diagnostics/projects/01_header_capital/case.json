@@ -1,0 +1,12 @@
+{
+  "id": "challenge_001",
+  "label": "header_missing",
+  "stage": "compile",
+  "arguments": [
+    "-c",
+    "main.cpp"
+  ],
+  "expected_marker": "fatal error:",
+  "group_id": "challenge_family_header_missing",
+  "notes": ""
+}

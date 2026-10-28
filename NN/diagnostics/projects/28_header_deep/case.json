@@ -1,0 +1,12 @@
+{
+  "id": "extended_028",
+  "label": "header_missing",
+  "stage": "compile",
+  "arguments": [
+    "-c",
+    "main.cpp"
+  ],
+  "expected_marker": "fatal error:",
+  "group_id": "regression_family_header_missing",
+  "notes": "Искусственный пример для разработки, не независимый проект."
+}

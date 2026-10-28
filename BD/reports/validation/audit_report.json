@@ -1,0 +1,23 @@
+{
+  "structure": "passed",
+  "projects": 7424,
+  "pairs": 3712,
+  "splits": {
+    "train": 5568,
+    "val": 928,
+    "test": 928
+  },
+  "fault_families": 116,
+  "observations": {
+    "gcc": {
+      "rows": 7424,
+      "mismatches": 28,
+      "missing_projects": 0
+    },
+    "clang": {
+      "rows": 7424,
+      "mismatches": 0,
+      "missing_projects": 0
+    }
+  }
+}

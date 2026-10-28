@@ -1,0 +1,14 @@
+{
+  "id": "challenge_016",
+  "label": "out_of_scope",
+  "stage": "link",
+  "arguments": [
+    "main.cpp",
+    "-lpgr_unavailable_driver",
+    "-o",
+    "program"
+  ],
+  "expected_marker": "cannot find",
+  "group_id": "challenge_family_out_of_scope",
+  "notes": ""
+}

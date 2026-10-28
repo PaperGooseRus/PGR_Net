@@ -1,0 +1,14 @@
+{
+  "id": "challenge_026",
+  "label": "build_success",
+  "stage": "link",
+  "arguments": [
+    "main.cpp",
+    "api.cpp",
+    "-o",
+    "program"
+  ],
+  "expected_marker": "",
+  "group_id": "challenge_family_build_success",
+  "notes": ""
+}

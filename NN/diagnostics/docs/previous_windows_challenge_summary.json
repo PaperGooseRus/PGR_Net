@@ -1,0 +1,15 @@
+{
+  "total_projects": 26,
+  "evaluated_errors": 24,
+  "matches": 22,
+  "mismatches": 2,
+  "known_rejected": 2,
+  "out_of_scope_false_accepts": 0,
+  "successful_controls": 2,
+  "collection_problems": 0,
+  "baseline_sha256": "5619d4a179a2a568e41a3c7a4f96ee68b3594a3a850fa0d7062f04a810e43ebc",
+  "compiler_version": "g++.EXE (Rev6, Built by MSYS2 project) 16.2.0",
+  "target_triplet": "x86_64-w64-mingw32",
+  "host_os": "Windows",
+  "limitation": "Целенаправленно созданные пограничные примеры; не независимая статистическая оценка реальных проектов."
+}

@@ -1,0 +1,17 @@
+# Optional: pip install pre-commit && pre-commit install
+# Requires only the project's Python interpreter; no remote hook downloads.
+repos:
+  - repo: local
+    hooks:
+      - id: pgr-hygiene
+        name: PGR tracked-file and formatting policy
+        entry: python scripts/repo_check.py
+        language: system
+        pass_filenames: false
+        always_run: true
+      - id: pgr-python-syntax
+        name: PGR Python syntax (all modules)
+        entry: python scripts/repo_check.py --syntax
+        language: system
+        pass_filenames: false
+        always_run: true

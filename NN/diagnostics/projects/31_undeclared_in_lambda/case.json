@@ -1,0 +1,12 @@
+{
+  "id": "extended_031",
+  "label": "undeclared_identifier",
+  "stage": "compile",
+  "arguments": [
+    "-c",
+    "main.cpp"
+  ],
+  "expected_marker": "error:",
+  "group_id": "regression_family_undeclared_identifier",
+  "notes": "Искусственный пример для разработки, не независимый проект."
+}

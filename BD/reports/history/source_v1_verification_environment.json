@@ -1,0 +1,13 @@
+{
+  "generated_utc_date": "2026-10-28",
+  "generator_python": "3.13.5",
+  "platform_checked": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "tools": {
+    "gcc": "gcc (Debian 14.2.0-19) 14.2.0",
+    "g++": "g++ (Debian 14.2.0-19) 14.2.0",
+    "clang": "clang version 17.0.0 (https://github.com/swiftlang/llvm-project.git 10999b6d034fe318f3d56c83bddb6572593a8bb0)",
+    "clang++": "clang version 17.0.0 (https://github.com/swiftlang/llvm-project.git 10999b6d034fe318f3d56c83bddb6572593a8bb0)",
+    "cmake": "cmake version 3.31.6",
+    "ninja": "1.12.1"
+  }
+}

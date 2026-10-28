@@ -1,0 +1,12 @@
+{
+  "id": "challenge_004",
+  "label": "syntax_error",
+  "stage": "compile",
+  "arguments": [
+    "-c",
+    "main.cpp"
+  ],
+  "expected_marker": "error:",
+  "group_id": "challenge_family_syntax_error",
+  "notes": ""
+}

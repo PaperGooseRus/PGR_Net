@@ -1,0 +1,16 @@
+add_executable(pgr_neural_tests test_forward.cpp)
+target_link_libraries(pgr_neural_tests PRIVATE PGR::neural_model)
+add_test(NAME pgr_neural_forward COMMAND pgr_neural_tests)
+add_test(NAME pgr_neural_demo_runs COMMAND pgr_neural_demo)
+add_executable(pgr_neural_gradient_tests test_gradients.cpp)
+target_link_libraries(pgr_neural_gradient_tests PRIVATE PGR::neural_training)
+add_test(NAME pgr_neural_gradients COMMAND pgr_neural_gradient_tests)
+
+add_executable(pgr_neural_training_tests test_training.cpp)
+target_link_libraries(pgr_neural_training_tests PRIVATE PGR::neural_training)
+add_test(NAME pgr_neural_training COMMAND pgr_neural_training_tests)
+
+add_executable(pgr_neural_storage_tests test_storage.cpp)
+target_link_libraries(pgr_neural_storage_tests PRIVATE PGR::neural_storage PGR::neural_training)
+add_test(NAME pgr_neural_storage COMMAND pgr_neural_storage_tests)
+set_tests_properties(pgr_neural_storage PROPERTIES WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/..")

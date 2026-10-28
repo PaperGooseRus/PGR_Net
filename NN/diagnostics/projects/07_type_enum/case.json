@@ -1,0 +1,12 @@
+{
+  "id": "challenge_007",
+  "label": "type_mismatch",
+  "stage": "compile",
+  "arguments": [
+    "-c",
+    "main.cpp"
+  ],
+  "expected_marker": "error:",
+  "group_id": "challenge_family_type_mismatch",
+  "notes": ""
+}

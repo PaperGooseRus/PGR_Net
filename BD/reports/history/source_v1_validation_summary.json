@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "corpus_projects": 7424,
+  "defective": 3712,
+  "clean": 3712,
+  "defect_families": 116,
+  "pairwise_repairs": 3712,
+  "compiler_runs": 14848,
+  "gcc_matches": 7424,
+  "clang_matches": 7424,
+  "mismatches": 0,
+  "verified_on": "Linux GCC 14.2 / Clang 17 / CMake 3.31.6",
+  "source": "synthetic",
+  "generated_date": "2026-10-28"
+}

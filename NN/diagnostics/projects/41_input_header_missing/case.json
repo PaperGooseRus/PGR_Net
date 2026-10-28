@@ -1,0 +1,12 @@
+{
+  "id": "extended_041",
+  "label": "out_of_scope",
+  "stage": "compile",
+  "arguments": [
+    "-c",
+    "absent_input.hpp"
+  ],
+  "expected_marker": "No such file or directory",
+  "group_id": "regression_family_out_of_scope",
+  "notes": "Искусственный пример для разработки, не независимый проект."
+}

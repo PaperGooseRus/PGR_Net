@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "ms-vscode.cmake-tools",
+        "ms-vscode.cpptools",
+        "charliermarsh.ruff",
+        "xaver.clang-format",
+        "editorconfig.editorconfig"
+    ]
+}

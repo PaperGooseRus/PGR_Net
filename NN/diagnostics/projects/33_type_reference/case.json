@@ -1,0 +1,12 @@
+{
+  "id": "extended_033",
+  "label": "type_mismatch",
+  "stage": "compile",
+  "arguments": [
+    "-c",
+    "main.cpp"
+  ],
+  "expected_marker": "error:",
+  "group_id": "regression_family_type_mismatch",
+  "notes": "Искусственный пример для разработки, не независимый проект."
+}

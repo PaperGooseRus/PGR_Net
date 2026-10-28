@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "steps": [
+    {
+      "step": "compiler_version",
+      "return_code": 0
+    },
+    {
+      "step": "compile_math",
+      "return_code": 0
+    },
+    {
+      "step": "compile_network",
+      "return_code": 0
+    },
+    {
+      "step": "compile_example",
+      "return_code": 0
+    },
+    {
+      "step": "link_pgr_neural_tests",
+      "return_code": 0
+    },
+    {
+      "step": "link_pgr_neural_demo",
+      "return_code": 0
+    },
+    {
+      "step": "tests",
+      "return_code": 0
+    },
+    {
+      "step": "demo",
+      "return_code": 0
+    }
+  ],
+  "source": "User-provided Windows forward 0.1.0 verification; current 0.2.0 is not covered"
+}

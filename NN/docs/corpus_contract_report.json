@@ -1,0 +1,124 @@
+{
+  "contract": "Synthetic Corpus v1",
+  "projects": 7424,
+  "taxonomy_fault_codes": 116,
+  "pairs": 3712,
+  "split_counts": {
+    "train": 5568,
+    "val": 928,
+    "test": 928
+  },
+  "observations": {
+    "gcc": {
+      "rows": 7424,
+      "reported_matches": 7396,
+      "missing_projects": 0
+    },
+    "clang": {
+      "rows": 7424,
+      "reported_matches": 7424,
+      "missing_projects": 0
+    }
+  },
+  "training": {
+    "training/train_gcc.jsonl": {
+      "rows": 5568,
+      "missing_projects": 0,
+      "targets": {
+        "runtime_error": 288,
+        "compile_error": 1872,
+        "success": 2784,
+        "link_error": 384,
+        "configure_error": 240
+      },
+      "empty_diagnostics_by_stage": {
+        "runtime_error": 192,
+        "success": 2544
+      }
+    },
+    "training/val_gcc.jsonl": {
+      "rows": 928,
+      "missing_projects": 0,
+      "targets": {
+        "compile_error": 312,
+        "success": 464,
+        "link_error": 64,
+        "runtime_error": 48,
+        "configure_error": 40
+      },
+      "empty_diagnostics_by_stage": {
+        "success": 424,
+        "runtime_error": 32
+      }
+    },
+    "training/test_gcc.jsonl": {
+      "rows": 928,
+      "missing_projects": 0,
+      "targets": {
+        "success": 464,
+        "compile_error": 312,
+        "link_error": 64,
+        "runtime_error": 48,
+        "configure_error": 40
+      },
+      "empty_diagnostics_by_stage": {
+        "success": 424,
+        "runtime_error": 32
+      }
+    },
+    "training/train_clang.jsonl": {
+      "rows": 5568,
+      "missing_projects": 0,
+      "targets": {
+        "runtime_error": 288,
+        "compile_error": 1872,
+        "success": 2784,
+        "link_error": 384,
+        "configure_error": 240
+      },
+      "empty_diagnostics_by_stage": {
+        "runtime_error": 192,
+        "success": 2544
+      }
+    },
+    "training/val_clang.jsonl": {
+      "rows": 928,
+      "missing_projects": 0,
+      "targets": {
+        "compile_error": 312,
+        "success": 464,
+        "link_error": 64,
+        "runtime_error": 48,
+        "configure_error": 40
+      },
+      "empty_diagnostics_by_stage": {
+        "success": 424,
+        "runtime_error": 32
+      }
+    },
+    "training/test_clang.jsonl": {
+      "rows": 928,
+      "missing_projects": 0,
+      "targets": {
+        "success": 464,
+        "compile_error": 312,
+        "link_error": 64,
+        "runtime_error": 48,
+        "configure_error": 40
+      },
+      "empty_diagnostics_by_stage": {
+        "success": 424,
+        "runtime_error": 32
+      }
+    }
+  },
+  "warnings": [
+    "Проверена структура, не правильность меток/наблюдений или исходников; SHA256 и перекомпиляция остаются в BD.",
+    "Разделение по парам не даёт независимости семейств шаблонов.",
+    "В корпусе target.build_ok включает успешность выполнения; runtime_error не означает ошибку компиляции.",
+    "117 целей (116+CLEAN) не сводятся автоматически к семи классам baseline NN.",
+    "Идентификаторы, split, пары, target и патчи нельзя подавать в признаки модели.",
+    "Чтение test здесь — аудит структуры, не настройка словаря, весов или гиперпараметров."
+  ],
+  "families_present_in_multiple_splits": 116
+}

@@ -1,0 +1,12 @@
+{
+  "id": "challenge_006",
+  "label": "undeclared_identifier",
+  "stage": "compile",
+  "arguments": [
+    "-c",
+    "main.cpp"
+  ],
+  "expected_marker": "error:",
+  "group_id": "challenge_family_undeclared_identifier",
+  "notes": ""
+}

@@ -1,0 +1,13 @@
+{
+  "id": "challenge_009",
+  "label": "undefined_reference",
+  "stage": "link",
+  "arguments": [
+    "main.cpp",
+    "-o",
+    "program"
+  ],
+  "expected_marker": "undefined reference",
+  "group_id": "challenge_family_undefined_reference",
+  "notes": ""
+}

@@ -1,0 +1,15 @@
+{
+  "total": 7424,
+  "matched": 7424,
+  "mismatches": 0,
+  "compiler": "clang",
+  "seconds": 307.55,
+  "observed_stages": {
+    "runtime_error": 384,
+    "compile_error": 2496,
+    "success": 3712,
+    "link_error": 512,
+    "configure_error": 320
+  },
+  "mismatch_examples": []
+}

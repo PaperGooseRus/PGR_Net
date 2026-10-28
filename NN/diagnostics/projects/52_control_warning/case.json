@@ -1,0 +1,13 @@
+{
+  "id": "extended_052",
+  "label": "build_success",
+  "stage": "compile",
+  "arguments": [
+    "-Wall",
+    "-c",
+    "main.cpp"
+  ],
+  "expected_marker": "",
+  "group_id": "regression_family_build_success",
+  "notes": "Искусственный пример для разработки, не независимый проект."
+}

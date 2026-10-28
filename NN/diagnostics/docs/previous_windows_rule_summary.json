@@ -1,0 +1,47 @@
+{
+  "total_input": 24,
+  "evaluated": 24,
+  "skipped": 0,
+  "matches": 24,
+  "mismatches": 0,
+  "known_total": 21,
+  "known_unknown": 0,
+  "out_of_scope_total": 3,
+  "out_of_scope_rejected": 3,
+  "per_class": {
+    "header_missing": {
+      "total": 3,
+      "matches": 3
+    },
+    "multiple_definition": {
+      "total": 3,
+      "matches": 3
+    },
+    "out_of_scope": {
+      "total": 3,
+      "matches": 3
+    },
+    "syntax_error": {
+      "total": 3,
+      "matches": 3
+    },
+    "type_mismatch": {
+      "total": 3,
+      "matches": 3
+    },
+    "undeclared_identifier": {
+      "total": 3,
+      "matches": 3
+    },
+    "undefined_reference": {
+      "total": 3,
+      "matches": 3
+    },
+    "unknown_option": {
+      "total": 3,
+      "matches": 3
+    }
+  },
+  "skipped_records": [],
+  "limitation": "Правила создавались по близким примерам; совпадения не являются независимой оценкой качества."
+}

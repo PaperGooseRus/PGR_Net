@@ -1,0 +1,14 @@
+{
+  "id": "challenge_011",
+  "label": "multiple_definition",
+  "stage": "link",
+  "arguments": [
+    "main.cpp",
+    "other.cpp",
+    "-o",
+    "program"
+  ],
+  "expected_marker": "multiple definition",
+  "group_id": "challenge_family_multiple_definition",
+  "notes": ""
+}

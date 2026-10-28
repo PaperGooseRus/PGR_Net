@@ -1,0 +1,13 @@
+{
+  "id": "extended_039",
+  "label": "unknown_option",
+  "stage": "invocation",
+  "arguments": [
+    "--pgr-undefined-compiler-option",
+    "-c",
+    "main.cpp"
+  ],
+  "expected_marker": "unrecognized command-line option",
+  "group_id": "regression_family_unknown_option",
+  "notes": "Искусственный пример для разработки, не независимый проект."
+}

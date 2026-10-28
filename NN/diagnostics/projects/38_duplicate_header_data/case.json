@@ -1,0 +1,14 @@
+{
+  "id": "extended_038",
+  "label": "multiple_definition",
+  "stage": "link",
+  "arguments": [
+    "main.cpp",
+    "b.cpp",
+    "-o",
+    "program"
+  ],
+  "expected_marker": "multiple definition",
+  "group_id": "regression_family_multiple_definition",
+  "notes": "Искусственный пример для разработки, не независимый проект."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "challenge_014",
+  "label": "unknown_option",
+  "stage": "invocation",
+  "arguments": [
+    "-Wpgr-fake-warning-setting",
+    "-c",
+    "main.cpp"
+  ],
+  "expected_marker": "unrecognized command-line option",
+  "group_id": "challenge_family_unknown_option",
+  "notes": ""
+}
